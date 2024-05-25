@@ -5,7 +5,7 @@ Mills' constant can be defined as the least theta such that f(n) = floor( theta 
 
 The first few f(n) for n=1, 2, ... are 2, 11, 1361, 2521008887, ... (OEIS A051254). They can be represented more compactly through b_n as f(1)=2 and
  f(n+1)=f(n)^3+b_n. 
-Caldwell and Cheng (2005) calculated the first 10 Mills primes. 13 were known as of Jul. 2013, with the first few b_n for n=1, 2, ... being 3, 30, 6, 80, 12, 450, 894, 3636, 70756, 97220, 66768, 300840, ... (OEIS A108739). 
+Caldwell and Cheng (2005) calculated the first 10 Mills primes. 13 were known as of Jul. 2013, with the first few b_n for n=1, 2, ... being 3, 30, 6, 80, 12, 450, 894, 3636, 70756, 97220, 66768, 300840, 1623568, 8436308 (OEIS A108739). 
 
 b(12) and b(13) generate only probable prime numbers, as well as being conditional on f(11) and f(12) being proved primes. Minimality of b(12)-b(13) is exhaustively tested by Serge Batalov, Aug 06 2013.
 b(14) = 8436308 is found by Ryan Propper and Serge Batalov, Apr 29 2024. Minimality of b(14) was exhaustively tested by Ryan Propper and Serge Batalov, May 24 2024.
